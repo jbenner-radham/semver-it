@@ -1,39 +1,20 @@
-# semver-it
+semver-it
+=========
+[![npm](https://img.shields.io/npm/v/semver-it.svg?)](https://www.npmjs.com/package/semver-it)
+[![build](https://img.shields.io/travis/jbenner-radham/semver-it.svg?)](https://travis-ci.org/jbenner-radham/semver-it)
 
-## Project setup
-```
-yarn install
-```
+A semver helper web app thingy someday...
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+~~Install~~
+-----------
+```sh
+$ yarn add semver-it # Or alternatively: `npm install semver-it`
 ```
 
-### Run your tests
-```
-yarn run test
-```
+Testing
+-------
+_To be documented._
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your end-to-end tests
-```
-yarn run test:e2e
-```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+License
+-------
+The MIT License (Expat). See the license file for details.
