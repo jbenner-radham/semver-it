@@ -16,5 +16,7 @@ trim_trailing_whitespace = true
 ij_css_use_double_quotes = false
 
 [*.{ts,tsx}]
+ij_typescript_spaces_within_brackets = true
 ij_typescript_spaces_within_imports = true
+ij_typescript_spaces_within_object_literal_braces = true
 ij_typescript_use_double_quotes = false
