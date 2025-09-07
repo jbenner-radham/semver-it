@@ -33,18 +33,18 @@ function CurrentVersionPrompt({ handleOnChange: passedHandleOnChange, handleOnCl
   }
 
   return (
-    <form>
+    <>
       <label>
         <span style={{ display: 'block' }}>What's your current version?</span>
         <input name="currentVersion" type="text" defaultValue={currentVersion}
                onChange={handleOnChange} placeholder="e.g., &quot;1.0.0&quot;" />
-        <button style={{ marginTop: '.25rem', display: 'block', width: '100%' }} type="button"
-                onClick={handleOnClick}
-                disabled={!isCurrentVersionValid}>Submit
-        </button>
       </label>
-    </form>
-  )
+      <button style={{ marginTop: '.25rem', display: 'block', width: '100%' }} type="button"
+              onClick={handleOnClick}
+              disabled={!isCurrentVersionValid}>Submit
+      </button>
+    </>
+  );
 }
 
 function SemVerWizard() {
