@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@radham/semver':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.5.0
+        version: 0.5.0
       bootstrap:
         specifier: ^5.3.7
         version: 5.3.7(@popperjs/core@2.11.8)
@@ -386,8 +386,8 @@ packages:
   '@popperjs/core@2.11.8':
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
-  '@radham/semver@0.2.0':
-    resolution: {integrity: sha512-f7+FWMwGUwBBfg8mtWog2cVOr5BP6DaKkVlaaZOIN4TLjDFFQz0Ak9u0Y77iiHNhbbtxx70j6/ENZFUtwoLCxA==}
+  '@radham/semver@0.5.0':
+    resolution: {integrity: sha512-rrbMp/dThVP3Udb3/y2G8VKmxZjXwB9D/FaZOxxzEgfPuSr9b2myMPbOJd7vb9DEB9/tt1lTVJiYy48gDh4EVQ==}
     engines: {node: '>=18', pnpm: '>=10.15'}
 
   '@rolldown/pluginutils@1.0.0-beta.30':
@@ -1406,7 +1406,7 @@ snapshots:
 
   '@popperjs/core@2.11.8': {}
 
-  '@radham/semver@0.2.0': {}
+  '@radham/semver@0.5.0': {}
 
   '@rolldown/pluginutils@1.0.0-beta.30': {}
 
